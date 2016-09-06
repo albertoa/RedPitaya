@@ -21,6 +21,7 @@ int main(int argc, char **argv){
 	float *x = (float *)malloc(buff_size * sizeof(float));
 	float *y = (float *)malloc(buff_size * sizeof(float));
 
+	t[0] = 0;
 	for(i = 1; i < buff_size; i++){
 		t[i] = (2 * M_PI) / buff_size * i;
 	}
